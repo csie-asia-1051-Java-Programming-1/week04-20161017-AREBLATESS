@@ -14,11 +14,15 @@ public class ex03_105021008 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
-		int n=scn.nextInt();
-		for(int i=0;n<i+1;i++){
-			System.out.println();
-		}
+			int n=scn.nextInt();
+			int m=1;
+			for(int i=1;i<=n;i++){
+				for(int i2=1;i2<=m;i2++){
+					System.out.print("*");
+				}
+				m++;
+				System.out.println();}
+			
+			}
 
 	}
-
-}
